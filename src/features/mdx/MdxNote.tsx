@@ -10,7 +10,7 @@ export const MdxNote = (props: MdxNoteProps) => {
   return (
     <Alert className="border-blue-500 bg-blue-500/10">
       <Notebook size={12} />
-      <div className="prose">{props.children}</div>
+      <div className="mdx-content">{props.children}</div>
     </Alert>
   );
 };
